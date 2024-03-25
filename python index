@@ -1,0 +1,8 @@
+def print_list(list,index):
+    if(index==len(list)):
+        return
+    print(list[index])
+    print_list(list,index+1)
+
+list=["mango","orange",3,4]
+print_list(list,0)
